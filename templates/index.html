@@ -6,6 +6,8 @@
     <title>Energy Consumption Prediction</title>
     <link rel="stylesheet" href="static/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
 </head>
 <body>
     <div class="container">
@@ -32,7 +34,7 @@
         </div>
         <div id="forecast-result" class="hidden">
             <h2>Forecast Result</h2>
-            <img id="forecast-plot" src="" alt="Forecast Plot">
+            <canvas id="forecast-chart"></canvas>
         </div>
         <div class="visualization-container">
             <h2>Visualizations</h2>
